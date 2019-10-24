@@ -28,9 +28,9 @@
 (def uri
   ;; test net
   #_"ws://replikativ.io:8888"
-  "wss://topiq.es/replikativ/ws"
+  #_"wss://topiq.es/replikativ/ws"
   ;; alternatively use your own peer :)
-  #_"ws://localhost:31744")
+  "ws://localhost:31744")
 
 
 (enable-console-print!)

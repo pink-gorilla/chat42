@@ -18,7 +18,7 @@
         stage (<?? S (create-stage! "mail:your@email.com" peer))]
     (<?? S (start peer))
     ;; NOTE: you do not need to connect to the test net, but you can :)
-    (connect! stage "ws://replikativ.io:8888")
+    ;(connect! stage "ws://replikativ.io:8888")
     (println "Your chat42 replikativ server peer is up and running! :)" uri)
     ;; HACK blocking main termination
     (<?? S (chan))))
